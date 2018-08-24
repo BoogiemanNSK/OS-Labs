@@ -1,0 +1,44 @@
+    1  cd
+    2  ls
+    3  whoami
+    4  cal
+    5  ls -l
+    6  cd /
+    7  ls
+    8  users
+    9  cd ..
+   10  ls
+   11  cd ~
+   12  ls
+   13  mkdir week1
+   14  cd week1/
+   15  ls /usr/bin | grep "gcc" > ex1.txt
+   16  ls
+   17  cat ex1.txt 
+   18  cd /usr/bin
+   19  ls
+   20  ls /usr/bin | grep "gcc"
+   21  ls /usr/bin | grep gcc
+   22  ls /usr/bin | head gcc
+   23  ls /usr/bin | head "gcc"
+   24  grep "gcc" < ls /usr/bin
+   25  ls /usr/bin | grep "gcc"
+   26  ls /usr/bin | head -n 3
+   27  ls /usr/bin | head 
+   28  ls /usr/bin | head "g"
+   29  ls /usr/bin | head g
+   30  man grep
+   31  ls /usr/bin | grep "gcc" -
+   32  ls /usr/bin | grep "g" -
+   33  ls /usr/bin | grep "gc" -
+   34  apt-get install gcc
+   35  apt-get install git
+   36  ls /usr/bin | grep "gcc" -
+   37  ls /usr/bin | grep "gcc" - > ~/week1/ex1.txt 
+   38  cd ~/week1
+   39  ls
+   40  cat ex1.txt 
+   41  whoami
+   42  users
+   43  cal
+   44  history > ex2.txt
