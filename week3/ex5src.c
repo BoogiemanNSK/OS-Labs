@@ -68,7 +68,7 @@ int main() {
 	dll = insert_node(dll, 2);
 	dll = insert_node(dll, 3);
 
-	dll = delete_node(dll, 1);
+	dll = delete_node(dll, 2);
 
 	print_list(dll);
 
