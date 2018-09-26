@@ -27,23 +27,28 @@ void* produce() {
 		if (item_count > 0) {
 			consume_flag = 1;
 		}
+
+		sleep(1);
 	}
 }
 
 void* consume() {
 	while(1) {
+		char just_to_spend_some_time = rand() % 256;
+
 		if (item_count <= 0) {
 			consume_flag = 0;
 		}
 
 		if (consume_flag) {
-			buffer[item_count] = '-';
 			item_count--;
 		}
 
 		if (item_count < BUFFER_SIZE) {
 			produce_flag = 1;
 		}
+
+		sleep(1);
 	}
 }
 
