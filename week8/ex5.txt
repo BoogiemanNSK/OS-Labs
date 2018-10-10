@@ -1,0 +1,3 @@
+		Difference between a Physical and a Virtual memory?i
+	While physical memory (or RAM) is a primary memory, which is used as much as possible, virtual memory is more like a back-up (or swap area). Reasons for that is that a virtual memory is, in fact, located on hard drive, which makes it far slower than RAM. Therefore, a virtual memory is used when RAM is filled.
+	Second difference is size - while RAM is bounded to a couple of GBs, virtual memory can be considered as infinite (or at least bounded to hard drive size). 

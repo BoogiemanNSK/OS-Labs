@@ -1,0 +1,3 @@
+	Virtual Adresses - 16-bit	Pages - 8KB = 2^13 bit
+
+	We can see now that adress space requires 2^(16-13) = 8 pages. Therefore, page table requires 8 entries. 
