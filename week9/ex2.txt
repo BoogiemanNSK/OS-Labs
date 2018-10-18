@@ -1,0 +1,3 @@
+Decreasing Hit/Miss Ratio: Every page is distinct, so OS will never find searched pages in frames, thus, Hit / Miss ratio is 0.
+
+Increasing Hit/Miss Ratio: Number of distinct pages should be less or equal than number of page frames, after that they just repeating. Order of repetition doesn`t matter. Then, miss will happen only while there are free frames. 
