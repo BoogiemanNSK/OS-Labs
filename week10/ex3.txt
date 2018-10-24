@@ -1,0 +1,8 @@
+chmod a-x _ex3.txt
+chmod u=rwx _ex3.txt
+chmod o=rwx _ex3.txt
+chmod g=u _ex3.txt
+
+660 = rw-rw---- = Read and Write are allowed for User and Group
+775 = rwxrwxr-x = All permissons for User and Group, Read and Execute for Others
+777 = rwxrwxrwx = All permissions for everyone

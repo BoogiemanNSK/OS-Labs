@@ -1,0 +1,3 @@
+	[file1 links]:
+./tmp/file1
+./link1
