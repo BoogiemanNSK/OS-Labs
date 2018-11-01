@@ -1,0 +1,3 @@
+We can notice that without newline character buffer for stdout was not cleared, therefore, out out was twice Hello\n (from parent and from child).
+While in second case, first output happened before fork() and, thus, buffer was empty at fork() which results in two empty lines.
+The only explanation for this is that stdout was using a line buffering in both cases <-> buffered was output and cleared only when newline characer met.
