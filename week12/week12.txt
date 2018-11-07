@@ -1,0 +1,12 @@
+COPY WITHOUT O_SYNC:
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+
+COPY WITH O_SYNC:
+real	0m0.008s
+user	0m0.002s
+sys	0m0.000s
+
+We can see that using O_SYNC flag increased elapsed time, yet neither user or kernel mode time increased.
+Reason for this is that during writing write() blocks execution until all data is on disk, therefore making I/O synchronized.
